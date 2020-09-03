@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/joaquinsoaje/bases-node#readme",
   "devDependencies": {
+    "nodemon": "^2.0.4",
     "yargs": "^15.4.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
   }
 }
