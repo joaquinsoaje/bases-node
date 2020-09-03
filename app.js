@@ -10,11 +10,13 @@ switch(comando) {
     case 'listar':
         listarTabla(argv.base, argv.limite)
         break;
+
     case 'crear':
         crearArchivo(argv.base, argv.limite)
             .then( archivo => console.log(`Archivo creado: `, colors.green(archivo)))
             .catch(err => console.log(err.red))
         break;
+
     default:
         console.log('comando no reconocido');
         break;
