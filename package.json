@@ -1,0 +1,25 @@
+{
+  "name": "bases",
+  "version": "1.0.0",
+  "description": "Esta es una aplicación de linea de comando",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaquinsoaje/bases-node.git"
+  },
+  "author": "Joaquin Andres Soaje",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaquinsoaje/bases-node/issues"
+  },
+  "homepage": "https://github.com/joaquinsoaje/bases-node#readme",
+  "devDependencies": {
+    "yargs": "^15.4.1"
+  }
+}
