@@ -10,12 +10,8 @@ const opt = {
 }
 
 const argv = require('yargs')
-            .command('listar', 'Imprime en consola la tabla de multiplicar usando la base dada', {
-                opt
-            })
-            .command('Crear', 'Crea o sobreescribe un archivo con la tabla de multiplicar usando la base dada', {
-                opt                
-            })
+            .command('listar', 'Imprime en consola la tabla de multiplicar usando la base dada', opt)
+            .command('crear', 'Crea o sobreescribe un archivo con la tabla de multiplicar usando la base dada', opt)
             .help('h')
             .alias('h', 'help')
             .argv;
