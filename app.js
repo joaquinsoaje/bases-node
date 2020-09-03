@@ -1,6 +1,5 @@
 const colors = require('colors/safe');
 
-
 const { argv } = require('./config/yargs');
 const { crearArchivo, listarTabla } = require('./lib/multiplicar');
 
